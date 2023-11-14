@@ -1,0 +1,22 @@
+.outerbox{
+    display:block;
+    outline:thick solid #16074b;
+    background-color: rgb(0, 255, 179);
+height:1200px
+}
+.home{
+   
+text-align: center;
+}
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  

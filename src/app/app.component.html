@@ -1,0 +1,19 @@
+<div class="outerbox">
+
+  <div class="home">
+    <h1>Home </h1>
+    <app-bgimage></app-bgimage>
+    <br><br>
+  </div>
+<button class="collapsible" type="button" (click)="collapse1.toggle()">about</button>
+  <div class="card" #collapse1="ngbCollapse" [ngbCollapse]="gfg"><app-about></app-about>
+  </div><br><br>
+
+  <button class="collapsible" type="button" (click)="collapse2.toggle()">skills</button>
+  <div class="card" #collapse2="ngbCollapse" [ngbCollapse]="c"><app-skills></app-skills></div><br><br>
+
+  <button class="collapsible"  type="button" (click)="collapse3.toggle()">experience</button>
+  <div class="card" #collapse3="ngbCollapse" [ngbCollapse]="d"><app-experience></app-experience></div><br><br>
+
+  <button class="collapsible" type="button" (click)="collapse4.toggle()">contact</button>
+  <div class="card" #collapse4="ngbCollapse" [ngbCollapse]="e"><app-contact></app-contact></div><br><br>

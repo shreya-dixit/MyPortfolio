@@ -1,0 +1,10 @@
+#sect1 {
+    height:700px;
+    width: 900px;
+    color: #fff;
+    background-image: url("../assets/images/MyPic.jpeg");
+
+    background-size: 100%;
+    background-size: cover;
+  }
+ 
